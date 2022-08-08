@@ -1,0 +1,59 @@
+.game{
+    display: grid;
+    padding: 2rem;
+    border-radius: 8px;
+    gap: .5rem;
+    margin-top: 6rem;
+    width: auto;
+}
+
+.game h1{
+    font-size: 2.5em;
+    background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wordContainer{
+    box-shadow: 15px 15px 30px rgb(40, 55, 110),
+             -15px -15px 30px rgb(35, 50, 105);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-transform: uppercase;
+}
+
+.letter, .blankSquare{
+    line-height: 1.35;
+    font-size: 50px;
+    border: 1px solid;
+    height: 4rem;
+    width: 4rem;
+    background-color: aliceblue;
+    color: black;
+}
+
+.letterContainer{
+    display: grid;
+    gap: .5rem;
+}
+
+.letterContainer form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 2rem;
+}
+
+.letterContainer input{
+    height: 2.85rem;
+    width: 2.85rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tip span{
+    color: rgb(187, 199, 243);
+}

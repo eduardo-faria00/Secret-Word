@@ -1,0 +1,9 @@
+.end{
+  display: grid;
+  gap: 2rem;
+}
+
+h2 span{
+  color: rgb(187, 199, 243);
+  font-size: 1.5em;
+}
